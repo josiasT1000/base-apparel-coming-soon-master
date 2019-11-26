@@ -10,17 +10,18 @@
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
-
+<!-- width: 1440px; height: 500px; -->
   <div class="top">
     <div class="cercle">  </div>
     <h2>Base Apparel</h2>
   </div>
 
-  <img src="images/hero-desktop.jpg" alt="">
+  <!-- <img src="images/hero-desktop.jpg" alt=""> -->
+  <div class="img">  </div>
 
   <div class="content">
     <h1>We're coming soon</h1>
@@ -29,8 +30,9 @@
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
 
-    <form class="" action="/" method="get">
-      <input type="email" name="" placeholder="Email Address">
+    <form novalidate>
+      <input type="email" name="" placeholder="Email Address" maxlength="40" required>
+      <span></span>
       <!-- <input type="submit" name="" value=""> -->
       <button type="submit" name="button"></button>
     </form>
@@ -38,7 +40,7 @@
 
 
 
-
+<script src="scripts.js" charset="utf-8"></script>
 </body>
 
 </html>
